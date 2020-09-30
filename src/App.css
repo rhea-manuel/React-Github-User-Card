@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #4a737f;
+  color:#efdbb9;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+  color:#efdbb9;
+  transition:.25s
+}
+
+a:hover{
+  color:#e2a18d;
+  transition:.25s
+}
+
+img{
+  width:150px;
+  height: 150px;
+  background: #efdbb9;
+  border-radius: 10px;
+}
+
+.card{
+  background: #efdbb9;
+  display: flex;
+  align-items: center;
+  width: 35%;
+  margin: 5% auto 0% auto;
+  justify-content: space-around;
+  border: 4px solid #efdbb9;
+  border-radius: 40px;
+
+  color: #4a737f;
+}
+
+.card a {
+  color: #4a737f;
+  transition:.25s;
+}
+
+.card a:hover{
+  color:#e2a18d;
+  transition:.25s;
+}
+
+
+.login{
+  font-style: italic;
+}
+
+.list{
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.title{
+  border-top: 2px solid #efdbb9;
+  border-bottom: 2px solid #efdbb9;
+  padding: 1% 0;
+  text-align: center;
+  width:97%;
+
+  /* width: 50%; */
+  margin: 3% auto;
+}
+
+.followers{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.followers article{
+  padding: 0 3%;
+  text-align: center;
+}
+
+/* .followers article a{
+  text-align: center;
+} */
+
+@media (max-width: 600px){
+  .card{
+    width:90%
+  }
+}
