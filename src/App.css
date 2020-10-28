@@ -1,0 +1,157 @@
+html { 
+  font-size:62.5%; 
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Card-Item{
+  display: flex;
+  text-align: left;
+  align-items: center;
+  margin-bottom:10%;
+}
+
+a{
+  color: #D7DEDC;
+  text-decoration: none;
+  transition: .2s;
+}
+
+a:hover{
+  color: white;
+  transition: .2s;
+}
+
+h1{
+  font-size: 4rem;
+  background: #417B5A;
+  color: #D7DEDC;
+  transition: .2s;
+}
+
+.Link{
+  text-decoration: none;
+  background: #417B5A;
+}
+
+h1:hover{
+  color: white;
+  transition: .2s;
+}
+
+.Card-Item span{
+  padding: 0 3%;
+}
+
+.Col{
+  width: 25vw;
+}
+
+.List{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+
+.List article{
+  background: #417B5A;
+  border-radius: 25px;
+  margin: 1% 2%;
+  width: 25%;
+}
+
+.List article img{
+  border-radius: 50%;
+  margin: 2%;
+  width: 200px;
+}
+
+.Card{
+  display: flex;
+  align-items: center;
+  border: 5px solid #417B5A;
+  border-radius: 40px;
+  padding: 1%;
+  padding-right: 4%;
+  text-align: left;
+  width: 50%;
+  margin: 2% auto;
+}
+
+.Card i {
+  padding-right: 1%;
+}
+
+.Card img{
+  border-radius: 50%;
+  background: #417B5A;
+  margin: 0 4%;
+}
+
+
+.Col{
+  display: flex;
+  justify-content: space-between;
+}
+
+h3{
+  font-weight: 100;
+  font-size: 1.8rem;
+}
+
+
+.Card-Item h3{
+  display: inline;
+}
+
+.Item{
+  display: flex;
+  align-items: center;
+}
+
+.Icon {
+  margin-right: 1%;
+}
+
+body{
+  background-color: #282c34;
+  padding: 2%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: #D7DEDC;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
